@@ -1,5 +1,18 @@
-venv/
+# Ignore Python cache
 __pycache__/
 *.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore model weights and large files
+*.pt
+*.pth
+*.h5
+*.onnx
+*.ckpt
+
+# Ignore any temp or output files
+outputs/
 runs/
-models/
